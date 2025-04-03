@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yüzün Güneşten Parlak</title>
+    <title>QR Kodlu Sayfa</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -46,8 +46,8 @@
 
     <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
     <script>
-        // QR Kodunun oluşturulması
-        const qrText = "Yüzün Güneşten Parlak, Kalbin Altından Değerli... Mimoza çiçeği gibi, yeniden bir olalım melek kız. \nCode by Hasan BULUT";
+        // QR kodunun oluşturulması
+        const qrText = "https://bulutshasan61.github.io/Hasan-BULUT/";
         const qrCodeElement = document.getElementById('qrcode');
         QRCode.toCanvas(qrCodeElement, qrText, function (error) {
             if (error) console.error(error);
